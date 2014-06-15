@@ -9,4 +9,6 @@ version          '0.1.0'
 depends "build-essential"
 depends "chruby"
 depends "sudo"
+depends "nginx"
+depends "mysql"
 
