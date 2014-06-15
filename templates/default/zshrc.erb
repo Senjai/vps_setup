@@ -1,0 +1,19 @@
+# Load chruby
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+
+export TERM=screen-256color
+# Customize to your needs...
+alias l='ls -lh'
+alias ll='ls -alh'
+alias pgrep='ps aux | grep'
+alias -g pry="pry -r ./config/environment -r rails/console/app -r rails/console/helpers"
+alias rake="noglob rake" # allows square brackts for rake task invocation
+alias brake='noglob bundle exec rake' # execute the bundled rake gem
+alias brails='bundle exec rails'
+alias be="bundle exec"
+alias bi="bundle install --path vendor/bundle"
+alias bu="bundle update"
+alias quit="exit"
+alias json="python -mjson.tool"
+alias routes="bundle exec rake routes"

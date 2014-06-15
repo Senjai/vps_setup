@@ -4,3 +4,4 @@ metadata
 
 cookbook "build-essential"
 cookbook "chruby"
+cookbook "sudo"
