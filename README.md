@@ -1,10 +1,10 @@
 # vps_setup-cookbook
 
-TODO: Enter the cookbook description here.
+Sets up a basic vps on linode or digital ocean.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Linux
 
 ## Attributes
 
@@ -46,6 +46,3 @@ Include `vps_setup` in your node's `run_list`:
 5. Run the tests, ensuring they all pass
 6. Submit a Pull Request
 
-## License and Authors
-
-Author:: YOUR_NAME (<YOUR_EMAIL>)
